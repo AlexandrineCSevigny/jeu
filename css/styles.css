@@ -1,0 +1,36 @@
+/**
+ * @file Style css
+ * @author Alexandrine C. Sévigny <asevigny81@gmail.com>
+ * @version 0.0.1
+ */
+
+body {
+    background-image: url(../images/background.png), linear-gradient(#0C2045 10%, #356686 50%, #90D2E7 75%,#DFF2FE 80%);
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
+    height: 104vh;
+    background-position: center, center;
+    margin: 0;
+}
+@media (max-width: 1440px) {
+    body {
+        background-size: cover;
+        height: 104vh;
+    }
+}
+@media (max-width: 800px) {
+    body {
+        height: 102.5vh;
+    }
+}
+#animation_container {
+    border: white 15px solid;
+}
+#animation_container, #_preload_div_ {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
